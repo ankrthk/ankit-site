@@ -1,0 +1,281 @@
+/* Responsive styles
+================================================== */
+
+/* Large Devices, Wide Screens */
+@media (min-width : 1200px) {
+	.dropdown i{
+		display: none;
+	}
+}
+
+
+/* Medium Devices, Desktops */
+@media (min-width : 992px) {
+	.navbar-brand i{
+		margin-right: 0px;
+		font-size: 16px;
+		line-height: 16px;
+	}
+
+	/* features ====================*/
+.feature-box h5{
+	font-size: 13px!important;
+}
+
+
+}
+
+/* Small Devices, Tablets */
+@media (min-width : 768px) and (max-width: 991px) {
+
+.navbar-nav > li > a{
+	padding: 15px 10px;
+}
+
+.navbar-brand i{
+	margin-right: 0px;
+	font-size: 16px;
+	line-height: 16px;
+}
+
+/*process ================================*/
+.process-wrap{
+	margin-bottom: 30px;
+}
+.process-heading {
+    margin-top:40px;
+}
+
+/* features ====================*/
+.feature-box{
+	border-bottom: 1px solid#eee;
+}
+.feature-box h5{
+	font-size: 13px!important;
+}
+
+/* experinece =================*/
+.edu-inner.exp{
+	margin-top: 50px;
+}
+
+/*testimonial =================================*/
+#testimonial {
+    padding-bottom: 100px;
+}
+#testimonial-carousel .item p {
+    width: 100%;
+}
+#testimonial-carousel .item h5 {
+    margin-top: 20px;
+}
+
+#testimonial-carousel .carousel-indicators {
+    top: 40%;
+}
+
+.client-img{
+    margin-bottom: 20px;
+}
+
+
+
+}
+
+/* Small Devices Potrait */
+@media (max-width : 767px){
+
+	
+}
+
+/* Extra Small Devices, Phones */ 
+@media (min-width : 480px) and (max-width:767px){
+
+/* background=================================*/
+
+#section-intro {
+   height: 450px;
+}
+
+
+.intro-caption {
+    padding: 125px 15px;
+}
+.intro-caption h1 {
+    font-size: 25px;
+    line-height: 35px;
+}
+
+.mid-title {
+    font-size: 30px;
+}
+
+.navbar-custom{
+	margin-top: 0px;
+	background: #333;
+	border-right: 0px;
+}
+
+
+/*about =============================*/
+.skills-wrap{
+	margin-top: 40px;
+}
+
+
+/*process ================================*/
+.process-wrap{
+	margin-bottom: 30px;
+}
+.process-heading {
+    margin-top:40px;
+}
+
+
+/*testimonial =================================*/
+#testimonial {
+    padding-bottom: 100px;
+}
+#testimonial-carousel .item p {
+    width: 100%;
+}
+#testimonial-carousel .item h5 {
+    margin-top: 20px;
+}
+#testimonial-carousel .carousel-indicators{
+	margin-top: 30px;
+}
+
+#testimonial-carousel .carousel-indicators li{
+	width: 45px;
+    height: 40px;
+    float: left;
+}
+#testimonial-carousel .carousel-indicators li img {
+    width: 45px;
+    height: 40px;
+    border-radius: 0px;
+    border: 0px;
+}
+
+#testimonial-carousel .carousel-indicators {
+    top: 90%;
+}
+
+
+/* contact ==========================================*/
+
+.contact-info-wrap{
+	margin-bottom: 60px;
+}	
+
+.contact-box{
+	margin-bottom: 30px;
+}
+
+/*footer=============================================*/
+.footer-desc{
+	margin-bottom: 30px;
+}
+
+}
+
+/* Custom, iPhone Retina */ 
+@media (min-width : 320px) and (max-width: 478px)  {
+
+
+/* background=================================*/
+
+.intro-caption {
+    padding: 125px 15px;
+}
+.intro-caption h1 {
+    font-size: 25px;
+    line-height: 35px;
+}
+
+.mid-title {
+    font-size: 30px;
+}
+
+.navbar-custom{
+	margin-top: 0px;
+	background: #333;
+	border-right: 0px;
+}
+
+
+/*about =============================*/
+.skills-wrap{
+	margin-top: 40px;
+}
+
+
+/* education  ===================================*/
+.about-info .icon{
+	display: none;
+}
+.about-info-inner {
+    margin-left: 0px;
+}
+
+/*process ================================*/
+.process-wrap{
+	margin-bottom: 30px;
+}
+.process-heading {
+    margin-top:40px;
+}
+
+/*testimonial =================================*/
+#testimonial {
+    padding-bottom: 100px;
+}
+#testimonial-carousel .item p {
+    width: 100%;
+}
+#testimonial-carousel .item h5 {
+    margin-top: 20px;
+}
+#testimonial-carousel .carousel-indicators{
+	margin-top: 30px;
+}
+
+#testimonial-carousel .carousel-indicators li{
+	width: 45px;
+    height: 40px;
+    float: left;
+}
+#testimonial-carousel .carousel-indicators li img {
+    width: 45px;
+    height: 40px;
+    border-radius: 0px;
+    border: 0px;
+}
+
+#testimonial-carousel .carousel-indicators {
+    top: 90%;
+}
+
+
+/* contact ==========================================*/
+
+.contact-info-wrap{
+	margin-bottom: 60px;
+}
+
+.contact-box{
+	margin-bottom: 30px;
+}
+
+.contact-info {
+    padding-top: 45px;
+    padding-bottom: 40px;
+}
+
+/*footer=============================================*/
+.footer-desc{
+	margin-bottom: 30px;
+}
+
+}

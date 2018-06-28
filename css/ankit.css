@@ -1,0 +1,19 @@
+/*Custom CSS */
+
+span.expYear, span.month {
+    border-bottom: 1px solid gray;
+}
+.tcs,
+.jnj{	  
+  width: 15%;
+}
+.first .item-info a{
+	margin-top: 10px;
+}
+.manymore{
+  text-align:right;
+  display: block;
+}
+.myAge{
+	border-bottom: 1px solid gray;
+}
