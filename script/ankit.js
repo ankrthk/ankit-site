@@ -60,8 +60,7 @@ $("#contactForm").submit(function(event){
     $.ajax({
           url: 'https://unassailable-inspec.000webhostapp.com/mail.php',
           type: 'POST',
-          data: data,
-          dataType: 'jsonp',          
+          data: data,          
           crossDomain: true,         
           success: function (data, textStatus, xhr) {
             console.log("Your Email Sent");
