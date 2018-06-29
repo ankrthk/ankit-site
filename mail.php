@@ -1,5 +1,5 @@
 <?php
-
+header("Access-Control-Allow-Origin: *");
 $to  = 'ankrthk@gmail.com'; 
 // subject
 $subject =  $_REQUEST["subject"];

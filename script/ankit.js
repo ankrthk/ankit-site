@@ -56,29 +56,22 @@ $("#contactForm").submit(function(event){
     $inputs.prop("disabled", true);
 
     // Fire off the request to /form.php
-    request = $.post('/mail.php', data);
-
-    // Callback handler that will be called on success
-    request.done(function (response, textStatus, jqXHR){
-        // Log a message to the console
-        console.log("Your Email Sent");
-        alert('Your mail sucessfully sent to Ankit Thakkar');
-    });
-
-    // Callback handler that will be called on failure
-    request.fail(function (jqXHR, textStatus, errorThrown){
-        // Log the error to the console
-        console.error(
-            "The following error occurred: "+
-            textStatus, errorThrown
-        );
-    });
-
-    // Callback handler that will be called regardless
-    // if the request failed or succeeded
-    request.always(function () {
-        // Reenable the inputs
-        $inputs.prop("disabled", false);
-    });
+    
+    $.ajax({
+          url: 'https://unassailable-inspec.000webhostapp.com/mail.php',
+          type: 'POST',
+          data: data,
+          dataType: 'jsonp',          
+          crossDomain: true,         
+          success: function (data, textStatus, xhr) {
+            console.log("Your Email Sent");
+            alert('Your mail sucessfully sent to Ankit Thakkar');
+            $inputs.val(" ");            
+          },
+          error: function (xhr, textStatus, errorThrown) {
+            console.log( "The following error occurred: "+ textStatus + errorThrown );
+            alert('There is problem in mail server. Drop me mail : ankrthk@gmail.com');
+          }
+        });
 
 });
