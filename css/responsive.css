@@ -90,7 +90,12 @@
 
 /* Extra Small Devices, Phones */ 
 @media (min-width : 480px) and (max-width:767px){
-
+.navbar-toggle {
+    padding: 6px 10px;
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-radius: 0px;
+}
 /* background=================================*/
 
 #section-intro {
@@ -183,8 +188,15 @@
 /* Custom, iPhone Retina */ 
 @media (min-width : 320px) and (max-width: 478px)  {
 
+.navbar-toggle {    
+    padding: 6px 10px;
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-radius: 0px;
+}
 
-/* background=================================*/
+
+/* =============background=================================*/
 
 .intro-caption {
     padding: 125px 15px;
@@ -218,7 +230,9 @@
 .about-info-inner {
     margin-left: 0px;
 }
-
+.edu-inner h3:after{
+	top: 32px;
+}
 /*process ================================*/
 .process-wrap{
 	margin-bottom: 30px;
@@ -257,7 +271,9 @@
     top: 90%;
 }
 
-
+.client-img {
+    margin-bottom: 50px;
+}
 /* contact ==========================================*/
 
 .contact-info-wrap{
