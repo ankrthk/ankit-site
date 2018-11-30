@@ -12,14 +12,18 @@
  * limitations under the License.
  */
 
-var config = {
-  apiKey: "YOUR_API_KEY",
-  authDomain: "your-app.firebaseapp.com",
-  databaseURL: "https://your-app.firebaseio.com",
-  storageBucket: "your-app.appspot.com",
-};
-firebase.initializeApp(config);
+ var config = {
+    apiKey: "AIzaSyB031eEtZX_2VWKnFfZVdMAFSphweUpi_w",
+    authDomain: "hireme-123.firebaseapp.com",
+    databaseURL: "https://hireme-123.firebaseio.com",
+    projectId: "hireme-123",
+    storageBucket: "hireme-123.appspot.com",
+    messagingSenderId: "840933497887"
+  };
+ firebase.initializeApp(config);
 
 // Google OAuth Client ID, needed to support One-tap sign-up.
 // Set to null if One-tap sign-up is not supported.
-var CLIENT_ID = 'YOUR_OAUTH_CLIENT_ID';
+var CLIENT_ID = '840933497887-usn0s8sl7ds09vtmrvvbfqbsgik8t2m7.apps.googleusercontent.com';
+
+//HzTB__ZTLNfYsgX5omPLOF1p
