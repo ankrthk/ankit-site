@@ -27,7 +27,7 @@ $('.month').html(numberOfMonths%12);
 $('.myAge').html(parseInt(numberOfMonths1/12));
 
 var request;
-
+/*
 $("#contactForm").submit(function(event){
     // Prevent default posting of form - put here to work in case of errors
     event.preventDefault();
@@ -74,7 +74,7 @@ $("#contactForm").submit(function(event){
         });
 
 });
-
+*/
 jQuery(function($) {
   "use strict";
 
